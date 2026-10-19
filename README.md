@@ -2,6 +2,8 @@
 
 Trabajo experimental de Machine Learning para la asignatura de **Inteligencia Artificial** de la **Universidad del Magdalena** (IA-2026-II).
 
+**Integrantes:** Carlos Pinto, León Cantillo, Santiago Gonzales.
+
 ## Tema
 
 Reconocimiento óptico de caracteres (OCR) aplicado a vocales manuscritas: **A, E, I, O, U**. La vocal **O** se representa con la carpeta **`0`** (no existe directorio propio para la letra O, por similitud visual con el dígito cero).
