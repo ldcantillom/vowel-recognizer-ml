@@ -1,0 +1,49 @@
+# Dataset pesado (no se sube al repositorio)
+CNN letter Dataset/
+archive (1).zip
+
+# Archivos grandes de imagen de muestra (opcional, descomentar si se desea excluir)
+# aug*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
