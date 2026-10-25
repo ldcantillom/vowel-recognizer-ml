@@ -1,7 +1,5 @@
 # Dataset pesado (no se sube al repositorio)
 CNN letter Dataset/
-archive (1).zip
-
 # Archivos grandes de imagen de muestra (opcional, descomentar si se desea excluir)
 # aug*.jpg
 
