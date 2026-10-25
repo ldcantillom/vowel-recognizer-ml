@@ -2,7 +2,7 @@
 
 Trabajo experimental de Machine Learning para la asignatura de **Inteligencia Artificial** de la **Universidad del Magdalena** (IA-2026-II).
 
-**Integrantes:** Carlos Pinto, León Cantillo, Santiago Gonzales.
+**Integrantes:** Carlos Pinto, León Cantillo, Santiago Gonzales, Jorge García.
 
 ## Tema
 
