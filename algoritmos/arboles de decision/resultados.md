@@ -26,6 +26,8 @@ La vocal **O** se toma de la carpeta `0`. Las imágenes binarizadas se guardan e
 
 ## 2. Diseño del experimento
 
+**Referencia metodológica:** el flujo sigue el ejemplo de la profesora en [`IA_Unimagdalena`](https://github.com/idanis/IA_Unimagdalena): `DecisionTreeClassifier` con `criterion='entropy'`, evaluación con accuracy, matriz de confusión y `classification_report`, y `GridSearchCV` con `cv=5`. Se adaptó al dataset de imágenes agregando binarización con Otsu y partición agrupada por aumento.
+
 - **Partición:** 80 % entrenamiento (4.056 imágenes) y 20 % prueba (1.014 imágenes).
 - **Agrupamiento:** `StratifiedGroupKFold` por identificador `aug<id>_<sufijo>`, para que variantes del mismo trazo no queden repartidas entre entrenamiento y prueba.
 - **Validación cruzada:** 5 pliegues agrupados y estratificados.
