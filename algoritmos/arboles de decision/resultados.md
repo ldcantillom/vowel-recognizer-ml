@@ -4,6 +4,8 @@
 
 **Evidencia:** `Taller_Vocales_ML.ipynb` (secciones 12 y 13).
 
+**Implementación:** `algoritmos/arboles de decision/arbol_decision.py`.
+
 ---
 
 ## 1. Datos y preprocesamiento
@@ -139,7 +141,10 @@ El árbol usa solo **40 píxeles** de los 7.500. Las reglas se concentran en la 
 ## 9. Reproducción
 
 1. Descargar el dataset y ubicarlo en `dataset/normal/CNN letter Dataset/`.
-2. Ejecutar `Taller_Vocales_ML.ipynb` de principio a fin.
-3. El notebook regenera `dataset/blanco y negro/` y calcula todos los resultados con semilla 42.
+2. Ejecutar `Taller_Vocales_ML.ipynb` de principio a fin, o el script:
+   ```bash
+   python "algoritmos/arboles de decision/arbol_decision.py"
+   ```
+3. El notebook o el script regeneran `dataset/blanco y negro/` y calculan todos los resultados con semilla 42.
 
 Los tiempos pueden variar según la máquina; las métricas no, porque la partición y los modelos usan semillas fijas.
