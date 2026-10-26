@@ -1,4 +1,6 @@
-# Dataset pesado (no se sube al repositorio)
+# Dataset pesado y derivados (no se suben al repositorio)
+dataset/
+dataset_extraido/
 CNN letter Dataset/
 archive (1).zip
 
