@@ -45,3 +45,7 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+# Datos procesados generados localmente
+data_processed/
+*.npz
+
