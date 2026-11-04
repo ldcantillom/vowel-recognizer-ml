@@ -20,6 +20,16 @@ Reconocimiento óptico de caracteres (OCR) aplicado a vocales manuscritas: **A, 
   - Exploración gráfica: imagen promedio por vocal y distribución de intensidades.
   - Resumen cuantitativo y tratamientos propuestos.
 
+## Dependencias
+
+El archivo [`requirements.txt`](requirements.txt) en la raíz del repositorio lista las dependencias Python necesarias para ejecutar el cuaderno.
+
+### Instalación:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Descarga del dataset
 
 El conjunto de datos completo se puede descargar desde Kaggle:
@@ -30,7 +40,6 @@ https://www.kaggle.com/datasets/straighttoheaven/handwriting-letter-and-number-d
 
 ## Notas
 
-- Las imágenes de muestra (`aug*.jpg`) se incluyen únicamente con fines ilustrativos.
 - Conteo normalizado por vocal: A: 1010, E: 1010, I: 1010, O: 1030, U: 1010 (total 5070).
 
 ## Licencia
