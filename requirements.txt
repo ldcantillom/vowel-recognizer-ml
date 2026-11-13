@@ -1,6 +1,11 @@
 numpy
 pandas
 matplotlib
+seaborn
 Pillow
 python-dotenv
+scipy
+ipython
 scikit-learn
+tensorflow
+LogisticRegression
